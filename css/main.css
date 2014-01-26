@@ -1,0 +1,164 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Web font */
+@import url(http://fonts.googleapis.com/css?family=Actor);
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+  background-color: #fff;
+  font: 13.34px 'Actor', sans-serif;
+  font-size: small;
+  text-align: center;
+  height: 100%;
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 { font: 100% 'Actor', sans-serif; }
+
+h1 { margin-bottom: 1em; }
+p { margin: 1em 0; }
+
+a         { color: #ff6fcf; }
+a:hover   { color: #ff66ff; }
+a:visited { color: #ff6fcf; }
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+.posts li {
+  line-height: 1.75em;
+}
+
+.posts span {
+  color: #aaa;
+  font-family: Monaco, 'Actor', sans-serif;
+  font-size: 80%;
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+ul.nav {
+  list-style-type: none;
+  width: 300px;
+}
+
+ul.nav li {
+  text-align: left;
+  padding: 15px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #333333;
+}
+
+.contact a {
+  margin-right: 15px;
+}
+
+.contact a, .contact a:visited {
+  font-size: 2em;
+  color: #7f7f7f;
+}
+
+.contact a:hover {
+  color: #191919;
+}
+.content {
+  margin: 15px;
+  padding: 20px;
+}
+
+.sidebar {
+  margin: 15px;
+  padding: 20px;
+}
+
+.avatar {
+  margin: 20px;
+  border: 1px solid #191919;
+}
+
+.title {
+  display: inline-block;
+  margin-bottom: 2em;
+}
+
+.header a.extra {
+  color: #aaa;
+  margin-left: 1em;
+}
+
+.header a.extra:hover {
+  color: #000;
+}
+
+.meta {
+  color: #aaa;
+}
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+/* standard */
+.post pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+.post ul, .post ol {
+  margin-left: 1.35em;
+}
+
+.post code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+}
+
+.post pre code {
+  border: none;
+}
+
+/* terminal */
+.post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+.post pre.terminal code {
+  background-color: #333;
+}
