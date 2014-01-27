@@ -18,8 +18,8 @@ This means if you need "taco.js" before "shrimp.js", require it in the manifest 
 Assume we have a file structure like this:
 
     app/assets/javascripts/application.js
-      app/assets/javascripts/taco.js
-      app/assets/javascripts/shrimp.js
+        app/assets/javascripts/taco.js
+        app/assets/javascripts/shrimp.js
 
 *app/assets/javascripts/application.js*
 

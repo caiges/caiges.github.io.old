@@ -96,6 +96,7 @@ ul.nav li {
   margin: 15px;
   padding: 20px;
   font-size: 1.3em;
+  text-align: left;
 }
 
 .sidebar {
@@ -162,4 +163,13 @@ ul.nav li {
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+/*****************************************************************************/
+/*
+/* Code
+/*
+/*****************************************************************************/
+.highlight {
+  text-align: left;
 }
