@@ -29,9 +29,9 @@ h1, h2, h3, h4, h5, h6 { font: 100% 'Actor', sans-serif; }
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #ff6fcf; }
-a:hover   { color: #ff66ff; }
-a:visited { color: #ff6fcf; }
+a         { color: #73b04a; }
+a:hover   { color: #191919; }
+a:visited { color: #73b04a; }
 
 /*****************************************************************************/
 /*
@@ -95,6 +95,7 @@ ul.nav li {
 .content {
   margin: 15px;
   padding: 20px;
+  font-size: 1.3em;
 }
 
 .sidebar {
