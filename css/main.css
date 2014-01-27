@@ -99,12 +99,16 @@ ul.nav li {
 }
 .content {
   margin: 15px;
+  margin-left: 385px;
   padding: 20px;
   font-size: 1.3em;
   text-align: left;
 }
 
 .sidebar {
+  position: fixed;
+  top: 5px;
+  left: 5px;
   margin: 15px;
   padding: 20px;
 }

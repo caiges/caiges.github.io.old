@@ -17,36 +17,27 @@
     </head>
     <body>
 
-      <div class="uk-grid">
-        <div class="uk-width-1-4">
-          <div class="sidebar">
-            
-            <a href="/">{{ site.name }}</a>
-            <br>
-            <strong>WEB CONSTRUCTINEER</strong>
-            <a href="/"><img class="avatar" src="/img/caige.jpg"></a>
+      <div class="sidebar">
+        <a href="/">{{ site.name }}</a>
+        <br>
+        <strong>WEB CONSTRUCTINEER</strong>
+        <br>
+        <a href="/"><img class="avatar" src="/img/caige.jpg"></a>
 
-            <ul class="nav">
-              <li><a class="extra" href="/">home</a></li>
-              <li><a class="extra" href="/">posts</a></li>
-              <li><a class="extra" href="/about.html">about</li>
-            </ul>
-            <div class="contact">
-              <a href="mailto:me@caigenichols.com"><i class="fa fa-envelope"></i></a>
-              <a href="https://github.com/caiges"><i class="fa fa-github"></i></a>
-              <a href="https://twitter.com/caiges"><i class="fa fa-twitter"></i></a>
-            </div>
-          </div>
+        <ul class="nav">
+          <li><a class="extra" href="/">home</a></li>
+          <li><a class="extra" href="/">posts</a></li>
+          <li><a class="extra" href="/about.html">about</a></li>
+        </ul>
+        <div class="contact">
+          <a href="mailto:me@caigenichols.com"><i class="fa fa-envelope"></i></a>
+          <a href="https://github.com/caiges"><i class="fa fa-github"></i></a>
+          <a href="https://twitter.com/caiges"><i class="fa fa-twitter"></i></a>
         </div>
-        <div class="uk-width-3-4">
-          <div class="uk-grid">
-            <div class="uk-width-1-2">
-              <div class="content">
-                {{ content }}
-              </div>
-            </div>
-          </div>
-        </div>
+      </div>
+
+      <div class="content">
+        {{ content }}
       </div>
 
       <script src="/js/jquery-2.1.0.min.js"></script>
