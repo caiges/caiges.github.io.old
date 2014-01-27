@@ -13,7 +13,7 @@ The solution to this problem is described in [Rails' Asset Pipeline documentatio
 
 > Directives are processed top to bottom, but the order in which files are included by require_tree is unspecified. You should not rely on any particular order among those. If you need to ensure some particular JavaScript ends up above some other in the concatenated file, require the prerequisite file first in the manifest. Note that the family of require directives prevents files from being included twice in the output.
 
-This means if you need "taco.js" before "shrimp.js", require it in the manifest before the "require_tree" directive:
+This means if you need "taco.js" before "shrimp.js", require it in the manifest before the "require_tree" directive.
 
 Assume we have a file structure like this:
 
