@@ -24,7 +24,7 @@ body {
   padding: 20px;
 }
 
-h1, h2, h3, h4, h5, h6 { font: 100% 'Actor', sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Actor', sans-serif; }
 
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
@@ -32,6 +32,11 @@ p { margin: 1em 0; }
 a         { color: #73b04a; }
 a:hover   { color: #191919; }
 a:visited { color: #73b04a; }
+
+em {
+  font-size: 0.9em;
+  color: inherit;
+}
 
 /*****************************************************************************/
 /*
